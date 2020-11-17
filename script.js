@@ -16,7 +16,13 @@ function chanlleng2() {
     document.getElementById("res1").innerHTML = merarr;
 }
  function chanlleng3(){
-
+    let fullName = {
+        fname:"intisar",
+        lname:"qafesha"
+    }
+    if(fullName.hasOwnProperty('fname')){
+        document.getElementById('res3').innerHTML="it contains the key";
+    }
  }
 function chanlleng4(value ){
     if(value instanceof Array){
